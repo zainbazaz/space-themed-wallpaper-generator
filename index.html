@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Space themed wallpapers">
+    	<meta name="keywords" content="space, wallpaper, nasa">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+
+		<title>NASA Wallpaper Generator</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Space Themed Wallpaper Generator</h1>
+			<p>Generate hd wallpapers using NASA's <a href="https://github.com/nasa/apod-api">Astronomy Picture of the Day</a> API.</p>
+			<a href="#" id="generateImage">Generate Image</a>
+		</header>
+		<section class="image hidden">
+			<img src="" alt="">
+		</section>
+		<section class="imageInfo hidden">
+			<h3>About image</h3>
+			<span id="date"></span>
+			<span id="title"></span>
+			<p id="aboutImage"></p>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
