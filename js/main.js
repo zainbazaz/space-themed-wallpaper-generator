@@ -2,7 +2,6 @@
 document.querySelector('#generateImage').addEventListener('click', getFetch);
 
 function getFetch(){
-  // const url = `https://api.nasa.gov/planetary/apod?api_key=iJy0Nd4wZZzfW2HFgBkNV4DDUsZ6PxL3RqQRgFfI&date=2013-12-29`
   const url = `https://api.nasa.gov/planetary/apod?api_key=iJy0Nd4wZZzfW2HFgBkNV4DDUsZ6PxL3RqQRgFfI&count=1`;
 
   fetch(url)
